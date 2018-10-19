@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="142" started-at="2016-09-25T11:17:58Z" finished-at="2016-09-25T11:17:58Z">
+    <groups>
+      <group name="Group1">
+        <method signature="Sequence.f5(java.lang.Integer, java.lang.String)[pri:50, instance:TestNG.Sequence@519f8603]" name="f5" class="TestNG.Sequence"/>
+        <method signature="Sequence.f6(java.lang.Integer, java.lang.String)[pri:49, instance:TestNG.Sequence@519f8603]" name="f6" class="TestNG.Sequence"/>
+        <method signature="Sequence.f7(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f7" class="TestNG.Sequence"/>
+      </group> <!-- Group1 -->
+      <group name="Group2">
+        <method signature="Sequence.f7(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f7" class="TestNG.Sequence"/>
+      </group> <!-- Group2 -->
+      <group name="group2">
+        <method signature="Sequence.f3(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f3" class="TestNG.Sequence"/>
+      </group> <!-- group2 -->
+    </groups>
+    <test name="Default test" duration-ms="142" started-at="2016-09-25T11:17:58Z" finished-at="2016-09-25T11:17:58Z">
+      <class name="TestNG.Sequence">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeSuite" is-config="true" duration-ms="31" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="f2(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f2" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method f2 requires 2 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method f2 requires 2 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:193)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:129)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:378)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:488)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1240)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:980)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1070)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="f3(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f3" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f3(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f3" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f7(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f7" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f7 -->
+        <test-method status="PASS" signature="beforeGroups2()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeGroups2" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups2 -->
+        <test-method status="PASS" signature="f7(java.lang.Integer, java.lang.String)[pri:0, instance:TestNG.Sequence@519f8603]" name="f7" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f7 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeGroups1()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeGroups1" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1(java.lang.Integer, java.lang.String)[pri:48, instance:TestNG.Sequence@519f8603]" name="f1" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterGroups2()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterGroups2" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f1(java.lang.Integer, java.lang.String)[pri:48, instance:TestNG.Sequence@519f8603]" name="f1" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f6(java.lang.Integer, java.lang.String)[pri:49, instance:TestNG.Sequence@519f8603]" name="f6" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f6 -->
+        <test-method status="PASS" signature="f5(java.lang.Integer, java.lang.String)[pri:50, instance:TestNG.Sequence@519f8603]" name="f5" duration-ms="16" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f5 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f6(java.lang.Integer, java.lang.String)[pri:49, instance:TestNG.Sequence@519f8603]" name="f6" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f6 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterGroups1()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterGroups1" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f5(java.lang.Integer, java.lang.String)[pri:50, instance:TestNG.Sequence@519f8603]" name="f5" duration-ms="0" started-at="2016-09-25T16:47:58Z" data-provider="dp" finished-at="2016-09-25T16:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f5 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequence@519f8603]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.Sequence@519f8603]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-09-25T16:47:58Z" finished-at="2016-09-25T16:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.Sequence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

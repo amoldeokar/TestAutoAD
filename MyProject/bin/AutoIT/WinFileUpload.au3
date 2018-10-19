@@ -1,0 +1,6 @@
+WinWait("File Upload","",10)
+ControlFocus("File Upload","","Edit1")
+Sleep(2000)
+ControlSetText("File Upload","","Edit1","C:\Users\admin\Desktop\HTML\Login.html")
+Sleep(2000)
+ControlClick("File Upload","","Button1")
