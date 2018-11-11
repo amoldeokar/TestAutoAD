@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8205" started-at="2018-10-19T07:25:22Z" finished-at="2018-10-19T07:25:30Z">
+  <suite name="Default suite" duration-ms="13093" started-at="2018-10-23T17:15:36Z" finished-at="2018-10-23T17:15:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8205" started-at="2018-10-19T07:25:22Z" finished-at="2018-10-19T07:25:30Z">
+    <test name="Default test" duration-ms="13093" started-at="2018-10-23T17:15:36Z" finished-at="2018-10-23T17:15:49Z">
       <class name="com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests">
-        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="5792" started-at="2018-10-19T12:55:22Z" data-provider="circuitLocations" finished-at="2018-10-19T12:55:28Z">
+        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="8115" started-at="2018-10-23T22:45:36Z" data-provider="circuitLocations" finished-at="2018-10-23T22:45:44Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- circuitLocationTest -->
-        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="415" started-at="2018-10-19T12:55:28Z" data-provider="circuitLocations" finished-at="2018-10-19T12:55:28Z">
+        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="405" started-at="2018-10-23T22:45:44Z" data-provider="circuitLocations" finished-at="2018-10-23T22:45:44Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- circuitLocationTest -->
-        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="449" started-at="2018-10-19T12:55:28Z" data-provider="circuitLocations" finished-at="2018-10-19T12:55:29Z">
+        <test-method status="PASS" signature="circuitLocationTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="circuitLocationTest" duration-ms="2753" started-at="2018-10-23T22:45:44Z" data-provider="circuitLocations" finished-at="2018-10-23T22:45:47Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- circuitLocationTest -->
-        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="805" started-at="2018-10-19T12:55:29Z" data-provider="md5hashes" finished-at="2018-10-19T12:55:30Z">
+        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="1003" started-at="2018-10-23T22:45:47Z" data-provider="md5hashes" finished-at="2018-10-23T22:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- md5JsonTest -->
-        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="338" started-at="2018-10-19T12:55:30Z" data-provider="md5hashes" finished-at="2018-10-19T12:55:30Z">
+        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="338" started-at="2018-10-23T22:45:48Z" data-provider="md5hashes" finished-at="2018-10-23T22:45:49Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- md5JsonTest -->
-        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="330" started-at="2018-10-19T12:55:30Z" data-provider="md5hashes" finished-at="2018-10-19T12:55:30Z">
+        <test-method status="PASS" signature="md5JsonTest(java.lang.String, java.lang.String)[pri:0, instance:com.ontestautomation.restassured.datadriven.RestAssuredDataDrivenTests@6d78f375]" name="md5JsonTest" duration-ms="378" started-at="2018-10-23T22:45:49Z" data-provider="md5hashes" finished-at="2018-10-23T22:45:49Z">
           <params>
             <param index="0">
               <value>
